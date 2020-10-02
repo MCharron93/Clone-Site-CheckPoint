@@ -8,8 +8,8 @@ footer{ }
 }
 
 .img-size{
-  max-width: 25vw;
-  max-height: 25vh;
+  max-width: 520px; 
+  max-height: 480px;
 }
 
 
@@ -34,5 +34,11 @@ footer{ }
 
   .stack{
     order: 2;
+  }
+  .first-stack{
+    order: 1;
+  }
+  .last-stack{
+    order: 3;
   }
 }
