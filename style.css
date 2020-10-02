@@ -3,3 +3,21 @@ header{ }
 main{flex-grow: 1;} 
 footer{ }
 
+* {
+  outline: 1px solid grey;
+}
+
+.img-size{
+  max-width: 25vw;
+  max-height: 25vh;
+}
+
+@media only screen and (max-width: 576px) {
+  .text-hidden{
+    display: none;
+  }
+}
+
+.box-spill-out{
+  bottom: -10px;
+}
