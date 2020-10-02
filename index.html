@@ -7,8 +7,8 @@
   <title>Clone Site Checkpoint</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/9d76fee42e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -19,29 +19,48 @@
   <header>
     <section class="container-fluid">
       <div class="row bg-primary">
-        <div class="col-12 d-flex align-items-center">
+        <div class="col-12 d-flex align-items-center py-3">
           <i class="fa fa-bomb fa-2x" aria-hidden="true"></i>
-          <h2> Lorem Ipsom</h2>
+          <h2>Battle Angel: Alita</h2>
         </div>
       </div>
+
+
+
       <div class="row bg-secondary">
-        <div class="col-12 col-md-3">
-          <h2>Subtitle Heading</h2>
-          <div>
-            <div class="card">
-              Input form Here
-              <p>Inset Checkbox here</p>
-              <div>Insert Button/Link here</div>
-            </div>
+        <div class="col-12 col-md-3 py-3">
+          <h4>Subtitle Heading</h4>
+          <div class="card p-2">
+            <h5>Sub Heading</h5>
+            <form>
+              <div class="name">
+                <div class="p-1"><label for="nameInput">Name</label></div>
+                <input type="text" name="UserName" id="">
+              </div>
+              <div class="form-group">
+                <div class="p-1"><label for="formInput1">Email Address</label></div>
+                <input type="email" name="EmailAddress" id="">
+              </div>
+              <div class="phone">
+                <div class="p-1"><label for="phoneNumber">Phone</label></div>
+                <input type="number" name="phone" id="">
+              </div>
+              <div class="message">
+                <div class="p-1"><label for="messaging">Message</label></div>
+                <input type="text" name="message" id="">
+              </div>
+              <p><input type="checkbox" name="confirmMailing" id="">  By clicking this you agree to terms of service.</p>
+              <div class="p-1"><button onclick="">Submit Form</button></div>
+            </form>
           </div>
         </div>
-        <div class="col-4 text-hidden">
+        <div class="col-md-7 offset-1 pt-5 text-hidden">
+          <div class="pt-5">
           <h3>Text overlay on Bakcground</h3>
           <p>Subtext of overlay section</p>
         </div>
-      </div>
-      </p>
-      </div>
+        </div>
+        
       </div>
     </section>
   </header>
@@ -53,12 +72,12 @@
       <div class="row bg-primary">
         <div class="col-12 col-md-6 order-md-2">
           <div class="positioning card d-flex justify-content-center">
-          <div>Icons with txt adjacent to each other</div>
-          <div>Icons with txt adjacent to each other</div>
-          <div>Icons with txt adjacent to each other</div>
-          <div>Icons with txt adjacent to each other</div>
-          <div>Icons with txt adjacent to each other ***This card does spill out into next***</div>
-        </div>
+            <div>Icons with txt adjacent to each other</div>
+            <div>Icons with txt adjacent to each other</div>
+            <div>Icons with txt adjacent to each other</div>
+            <div>Icons with txt adjacent to each other</div>
+            <div>Icons with txt adjacent to each other ***This card does spill out into next***</div>
+          </div>
         </div>
         <div class="col-12 col-md-6 order-md-1">
           <h3>Some Text here</h3>
@@ -70,8 +89,8 @@
 
 
       <div class="row">
-        <div class="col-12 col-md-6"><img class="img-fluid" src="https://images.sgcafe.net/2019/08/BareHandedBladeCatch.png"
-            alt="Guts_Berserk"></div>
+        <div class="col-12 col-md-6"><img class="img-fluid"
+            src="https://images.sgcafe.net/2019/08/BareHandedBladeCatch.png" alt="Guts_Berserk"></div>
         <div class="col-12 col-md-4 text-secondary">
           <h3>Icon with Large Header adjacent</h3>
           <h3>Header of same size</h3>
@@ -83,13 +102,14 @@
       </div>
 
 
-      <div class="row align-items-center py-4">
+      <div class="row align-items-center py-4 text-center">
         <div class="col-12 col-md-3 order-1 stack card">
           <div>
             <p>Text here</p>
           </div>
           <div>
-            <p>Different color text below. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur laborum repellendus dolorem, ea excepturi dolor.</p>
+            <p>Different color text below. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur laborum
+              repellendus dolorem, ea excepturi dolor.</p>
           </div>
         </div>
         <div class="col-12 col-md-3 order-2 first-stack card">
@@ -110,7 +130,8 @@
             <p>Text here</p>
           </div>
           <div>
-            <p>Different color text below. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, aspernatur.</p>
+            <p>Different color text below. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Quas, aspernatur.</p>
           </div>
         </div>
       </div>
@@ -125,13 +146,13 @@
     <section class="container-fluid">
       <div class="row">
         <div class="col-12 bg-primary">
-          <h3>Some Large text here</h3>
-          <h5>Subtext here in section that spans further</h5>
+          <h4>Some Large text here</h4>
+          <p>Subtext here in section that spans further</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-12 text-primary">
-          <h5>Sub header with text spaning almost whole page bottom</h5>
+        <div class="col-12 text-primary text-center">
+          <p>Sub header with text spaning bottom</p>
         </div>
       </div>
     </section>
