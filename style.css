@@ -12,12 +12,27 @@ footer{ }
   max-height: 25vh;
 }
 
-@media only screen and (max-width: 576px) {
-  .text-hidden{
-    display: none;
-  }
+
+.positioning{
+  position: absolute;
+  min-height: 125%;
 }
 
 .box-spill-out{
   bottom: -10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .text-hidden{
+    display: none;
+  }
+
+  .positioning{
+    position: unset;
+    min-height: unset;
+  }
+
+  .stack{
+    order: 2;
+  }
 }
