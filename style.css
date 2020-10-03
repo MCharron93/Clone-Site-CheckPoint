@@ -8,7 +8,6 @@ footer{ }
   margin-right: 0px;
 }
 
-
 * {
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -48,6 +47,19 @@ footer{ }
   max-height: fit-content;
 }
 
+.wiggle {
+  animation: levitate 5s ease-in-out infinite;
+}
+
+@keyframes levitate{
+  0%, 100% {
+    transform: translateY(15px)
+  }
+  50%{
+    transform: translateY(-15px)
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .text-hidden{
     display: none;
@@ -66,5 +78,12 @@ footer{ }
   }
   .last-stack{
     order: 3;
+  }
+  .margin-stack{
+    margin: 1em;
+  }
+  .text-snap{
+    display: flex;
+    justify-content: center;
   }
 }
