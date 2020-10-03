@@ -3,34 +3,42 @@ header{ }
 main{flex-grow: 1;} 
 footer{ }
 
+
+
+
 * {
   outline: 1px solid grey;
+}
+.row{
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .bg-photo{
   background-image: url(Battle_Angel.jpg); 
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
-.photo-long{
-  background-image: url(cloneSitelong.jpg);
-  background-size: cover;
+.image-fit{
+  max-height: 65vh;
 }
-
-.img-size{
-  max-width: 520px; 
-  max-height: 480px;
-}
-
 
 .positioning{
   position: absolute;
-  min-height: 125%;
+  min-height: 110%;
 }
 
 .box-spill-out{
   bottom: -10px;
+}
+
+.fill-out{
+  min-height: 14em;
+}
+.fill-in{
+  max-height: 12em;
 }
 
 @media only screen and (max-width: 768px) {
