@@ -3,11 +3,14 @@ header{ }
 main{flex-grow: 1;} 
 footer{ }
 
-
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
 
 * {
-  outline: 1px solid grey;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .bg-photo{
@@ -28,6 +31,10 @@ footer{ }
 .positioning{
   position: absolute;
   min-height: 110%;
+}
+
+.box-shape{
+  width: fit-content;
 }
 
 .box-spill-out{
