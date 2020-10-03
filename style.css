@@ -9,10 +9,6 @@ footer{ }
 * {
   outline: 1px solid grey;
 }
-.row{
-  margin-left: 0;
-  margin-right: 0;
-}
 
 .bg-photo{
   background-image: url(Battle_Angel.jpg); 
@@ -23,6 +19,10 @@ footer{ }
 
 .image-fit{
   max-height: 65vh;
+}
+
+.shadow{
+  filter: drop-shadow(6px 8px 6px #5c5b5b);
 }
 
 .positioning{
@@ -38,7 +38,7 @@ footer{ }
   min-height: 14em;
 }
 .fill-in{
-  max-height: 12em;
+  max-height: fit-content;
 }
 
 @media only screen and (max-width: 768px) {
