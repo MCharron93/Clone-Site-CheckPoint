@@ -70,6 +70,10 @@ footer{ }
     min-height: unset;
   }
 
+  .wiggle{
+    animation: none;
+  }
+
   .stack{
     order: 2;
   }
