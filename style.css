@@ -53,16 +53,20 @@ footer{ }
 
 @keyframes levitate{
   0%, 100% {
-    transform: translateY(15px)
+    transform: translateY(10px)
   }
   50%{
-    transform: translateY(-15px)
+    transform: translateY(-10px)
   }
 }
 
 @media only screen and (max-width: 768px) {
   .text-hidden{
     display: none;
+  }
+
+  .bg-shift{
+    background-position: top left;
   }
 
   .positioning{
